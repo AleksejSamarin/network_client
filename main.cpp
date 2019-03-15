@@ -34,6 +34,6 @@ int main() {
         write(sock, buffer2, size);
         memset(buffer2, 0, size);
         read(sock, buffer2, size);
-        printf("Response: %s\n", buffer2);
+        printf("Response: %s", buffer2);
     }
 }
